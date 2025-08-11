@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>認知科学コーチング | 新しい自分と未来を創る</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+JP:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background-color: #f8fafc;
+        }
+        .text-gradient {
+            background-image: linear-gradient(to right, #4338ca, #3b82f6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card-hover-scale:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <!-- Header -->
+    <header class="bg-gray-800 p-4 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="text-2xl font-bold text-white">Cognitive Coaching</div>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#about" class="hover:text-blue-400 transition-colors duration-300">特徴</a>
+                <a href="#flow" class="hover:text-blue-400 transition-colors duration-300">サービスフロー</a>
+                <a href="#plans" class="hover:text-blue-400 transition-colors duration-300">料金プラン</a>
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-full font-semibold transition-colors duration-300">無料相談</a>
+            </nav>
+            <button class="md:hidden text-white focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gray-900 text-white min-h-screen flex items-center justify-center p-8 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center opacity-10" style="background-image: url('https://placehold.co/1920x1080/0e172a/fff?text=Abstract+Background');"></div>
+        <div class="container mx-auto text-center relative z-10">
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight tracking-tighter mb-4 text-white">
+                新しい自分と未来を<br class="md:hidden">
+                <span class="text-gradient">認知科学で創る</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                あなたの「内部表現」を書き換え、目標達成へと導く<br>
+                プロフェッショナルコーチングサービス
+            </p>
+            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full text-lg shadow-lg transition-all duration-300 transform hover:scale-105">
+                無料相談を予約する
+            </a>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="about" class="py-20 md:py-32 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-12 text-white">なぜ、認知科学コーチングなのか？</h2>
+            <p class="text-center text-gray-300 mb-16 max-w-3xl mx-auto text-lg">
+                従来のコーチングは行動に焦点を当てることが多いですが、私たちのコーチングは、目標達成を阻害する無意識の思考パターンや信念、そして自己イメージそのものにアプローチします。
+                脳の仕組みを理解することで、無理なく、そして永続的な変化を生み出します。
+            </p>
+            <div class="grid md:grid-cols-3 gap-12 text-center">
+                <div class="bg-gray-800 p-8 rounded-2xl shadow-lg transition-all duration-300 card-hover-scale">
+                    <div class="flex justify-center mb-4">
+                        <svg class="h-16 w-16 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v12m-6-1h12a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2a2 2 0 012-2z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">内部表現の書き換え</h3>
+                    <p class="text-gray-400">
+                        無意識の思考パターンや、自分自身に対する見方（セルフイメージ）を再構築し、自己肯定感を高めます。
+                    </p>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-2xl shadow-lg transition-all duration-300 card-hover-scale">
+                    <div class="flex justify-center mb-4">
+                        <svg class="h-16 w-16 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">臨場感のあるゴール設定</h3>
+                    <p class="text-gray-400">
+                        達成したい未来をリアルに感じさせることで、脳が自動的に行動を促す状態を作り出します。
+                    </p>
+                </div>
+                <div class="bg-gray-800 p-8 rounded-2xl shadow-lg transition-all duration-300 card-hover-scale">
+                    <div class="flex justify-center mb-4">
+                        <svg class="h-16 w-16 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.483 9.333 5 8 5c-4 0-4 6-4 6m8-6h4c4 0 4 6 4 6m-9 5h7.5M12 17H6c-4 0-4-6-4-6h16c0 0 0 6-4 6h-7.5"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">永続的な変化</h3>
+                    <p class="text-gray-400">
+                        表面的なスキルではなく、根本的なマインドセットを変えるため、一度身についた変化は継続します。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Flow Section -->
+    <section id="flow" class="py-20 md:py-32 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-white">提供するサービス内容</h2>
+            <div class="grid md:grid-cols-4 gap-12 items-center">
+                <!-- Step 1 -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="bg-blue-600 p-6 rounded-full mb-4 shadow-lg">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.045 6.75-3 9.5-2.28-3.04-3.56-6.17-3.56-9.5 0-4.418 3.582-8 8-8s8 3.582 8 8zM12 11a4 4 0 100-8 4 4 0 000 8z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">自己理解</h3>
+                    <p class="text-gray-400">
+                        現在の思考パターン、価値観、信念を深く掘り下げ、真の自己を明らかにします。
+                    </p>
+                </div>
+                <!-- Arrow -->
+                <div class="hidden md:flex justify-center">
+                    <svg class="w-12 h-12 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </div>
+                <!-- Step 2 -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="bg-blue-600 p-6 rounded-full mb-4 shadow-lg">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21h18M12 3L5 21l-2-6V6m9-3h7l-2 6V6"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">GOAL設定</h3>
+                    <p class="text-gray-400">
+                        「心の底から達成したい」と感じる未来のゴールを鮮明に描き、臨場感を持たせます。
+                    </p>
+                </div>
+                <!-- Arrow -->
+                <div class="hidden md:flex justify-center">
+                    <svg class="w-12 h-12 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </div>
+                <!-- Step 3 -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="bg-blue-600 p-6 rounded-full mb-4 shadow-lg">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M12 16h.01"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">アクションプラン</h3>
+                    <p class="text-gray-400">
+                        ゴールを達成するための具体的な行動計画を、あなたの内部表現に合わせてカスタマイズします。
+                    </p>
+                </div>
+                <!-- Arrow -->
+                <div class="hidden md:flex justify-center">
+                    <svg class="w-12 h-12 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </div>
+                <!-- Step 4 -->
+                <div class="flex flex-col items-center text-center">
+                    <div class="bg-blue-600 p-6 rounded-full mb-4 shadow-lg">
+                        <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">アクション実行支援</h3>
+                    <p class="text-gray-400">
+                        継続的なサポートとフィードバックで、行動を加速させ、ゴール達成を力強くサポートします。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="plans" class="py-20 md:py-32 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-center mb-16 text-white">料金プラン</h2>
+            <div class="grid lg:grid-cols-3 gap-12 items-start max-w-6xl mx-auto">
+                <!-- Short Term Plan -->
+                <div class="bg-gray-800 p-10 rounded-3xl shadow-lg transition-all duration-300 card-hover-scale">
+                    <div class="flex justify-between items-center mb-6">
+                        <h3 class="text-3xl font-bold text-blue-400">短期プラン</h3>
+                        <span class="text-gray-400 text-sm">約3ヶ月</span>
+                    </div>
+                    <p class="text-4xl font-extrabold mb-2">
+                        240,000円
+                        <span class="text-lg text-gray-400 font-normal">（税込）</span>
+                    </p>
+                    <p class="text-gray-400 mb-6">セッション数: 6回</p>
+                    <a href="#contact" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-full font-bold transition-colors duration-300 transform hover:scale-105">
+                        申し込む
+                    </a>
+                    <ul class="mt-8 space-y-4 text-gray-300">
+                        <li class="flex items-center space-x-2">
+                            <svg class="h-6 w-6 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>自己理解（Day1-2）</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="h-6 w-6 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>GOAL設定（Day3-4）</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="h-6 w-6 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>アクションプラン作成（Day5）</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Mid Term Plan -->
+                <div class="bg-gray-700 p-10 rounded-3xl shadow-2xl ring-4 ring-blue-500 relative transition-all duration-300 card-hover-scale transform scale-105">
+                    <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-blue-600 text-white text-sm font-bold px-4 py-2 rounded-full">
+                        最も人気
+                    </div>
+                    <div class="flex justify-between items-center mb-6">
+                        <h3 class="text-3xl font-bold text-blue-300">中期プラン</h3>
+                        <span class="text-gray-400 text-sm">約6ヶ月</span>
+                    </div>
+                    <p class="text-5xl font-extrabold mb-2">
+                        348,000円
+                        <span class="text-lg text-gray-400 font-normal">（税込）</span>
+                    </p>
+                    <p class="text-gray-400 mb-6">セッション数: 9回</p>
+                    <a href="#contact" class="block w-full text-center bg-blue-500 hover:bg-blue-600 text-white py-4 rounded-full font-bold transition-colors duration-300 transform hover:scale-105">
+                        申し込む
+                    </a>
+                    <ul class="mt-8 space-y-4 text-gray-200">
+                        <li class="flex items-center space-x-2">
+                            <svg class="h-6 w-6 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>短期プランの全内容</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="h-6 w-6 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>アクション振り返り（Day6〜）</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="h-6 w-6 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>アクション再設定/GOAL更新</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Long Term Plan -->
+                <div class="bg-gray-800 p-10 rounded-3xl shadow-lg transition-all duration-300 card-hover-scale">
+                    <div class="flex justify-between items-center mb-6">
+                        <h3 class="text-3xl font-bold text-blue-400">長期プラン</h3>
+                        <span class="text-gray-400 text-sm">約12ヶ月</span>
+                    </div>
+                    <p class="text-4xl font-extrabold mb-2">
+                        456,000円
+                        <span class="text-lg text-gray-400 font-normal">（税込）</span>
+                    </p>
+                    <p class="text-gray-400 mb-6">セッション数: 12回</p>
+                    <a href="#contact" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-full font-bold transition-colors duration-300 transform hover:scale-105">
+                        申し込む
+                    </a>
+                    <ul class="mt-8 space-y-4 text-gray-300">
+                        <li class="flex items-center space-x-2">
+                            <svg class="h-6 w-6 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>中期プランの全内容</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="h-6 w-6 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>強固なセルフイメージの構築</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <svg class="h-6 w-6 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                            <span>年間を通しての徹底的な伴走支援</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="contact" class="py-20 md:py-32 bg-gray-800 text-white">
+        <div class="container mx-auto text-center px-4">
+            <h2 class="text-4xl md:text-5xl font-bold mb-4">新しい未来への第一歩を踏み出しませんか？</h2>
+            <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+                あなたの人生を本当に変えるコーチングを、まずは無料相談で体験してください。
+            </p>
+            <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full text-lg shadow-lg transition-all duration-300 transform hover:scale-105">
+                無料相談を予約する
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-500 py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2024 Cognitive Coaching. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
